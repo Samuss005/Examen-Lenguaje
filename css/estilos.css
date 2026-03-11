@@ -1,0 +1,86 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(223, 220, 220, 0.904);
+}
+
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.753);
+    border: 12px;
+
+}
+
+img{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width:250px;
+  height:250px;
+  object-fit:cover;
+}
+
+.espacioEnBlanco{
+    background-color: white;
+}
+
+label {
+    border-radius: 1px;
+    background: #fff;
+    font-size: 14px;
+    display: flex;
+}
+
+div.A{
+    display: flex;
+}
+button {
+    padding: 10px 12px;
+    border: 1px solid #d8dbe6;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+}
+
+
+button.primary {
+    background: #2f6fed;
+    color: #fff;
+    border-color: #2f6fed
+}
+
+button.secondary {
+    background: #f50000;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.ParteAbajo{
+    background-color: rgba(255, 255, 255, 0.993);
+    border: 12px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.espacio{
+    background-color: white;
+}
+
+.tableWrap {
+    overflow-x: auto;
+    margin-top: 10px;
+    border: 12px;
+}
